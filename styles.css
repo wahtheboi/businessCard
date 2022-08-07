@@ -1,0 +1,41 @@
+body {
+    margin: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.avatar {
+    width: 30px 30px;
+}
+
+.card {
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+    width: 400px;
+    height: 180px;
+    margin: 0 auto;
+    background-image: url(images/waves.png);
+    background-size: 200% 200%;
+    color: orange;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-top: 8px solid orange;
+}
+
+.description {
+    padding-top: 15px;
+}
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
